@@ -33,7 +33,7 @@ const RegisterPage = () => {
             </div>
             <div className="flex flex-col justify-center items-center w-1/2 p-8 rounded shadow-lg">
                 <h1 className="text-3xl font-bold mb-6">Sign Up</h1>
-                <form className="w-full max-w-xs" onSubmit={handleRegister}>
+                <form className="w-full max-w-xs text-black" onSubmit={handleRegister}>
                     <input
                         type="email"
                         value={email}

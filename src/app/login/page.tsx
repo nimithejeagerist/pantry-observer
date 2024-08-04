@@ -33,7 +33,7 @@ const LoginPage = () => {
             </div>
             <div className="flex flex-col justify-center items-center w-1/2 p-8 rounded shadow-lg">
                 <h1 className="text-3xl font-bold mb-6">Login</h1>
-                <form className="w-full max-w-xs" onSubmit={handleLogin}>
+                <form className="w-full max-w-xs text-black" onSubmit={handleLogin}>
                     <input
                         type="email"
                         value={email}
